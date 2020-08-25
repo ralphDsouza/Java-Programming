@@ -1,0 +1,24 @@
+public class account extends AccountDemo  
+{
+    double balance;
+    void Account()
+{
+    int balance=0;
+}
+void startAccount(double amt)
+{
+     balance=amt;
+} 
+void deposit(double amount)
+{
+     balance+=amount;
+}
+void withdraw(double amount)
+{
+      balance-=amount;
+}
+double getBalance()
+{
+    return balance;
+}
+}
