@@ -1,0 +1,19 @@
+public class Random_numbers
+{ 
+   double i,no,random no; 
+  void random()
+   {
+    for(i=1;i<=20;i++)
+    {
+        no = Math.random();
+        random no = no*100;
+        System.out.println(random no);
+    }
+    System.out.println("20 random numbers are printed above");
+  }
+  public static void main()
+  {
+      Random_numbers obj=new Random_numbers();
+      obj.random();
+  }
+}
